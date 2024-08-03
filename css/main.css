@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box;
+}
+.first-page{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.bundle-up{
+    width:100%;
+    height:50px;
+    background-color: #383230;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.membership{
+    justify-content: space-between;
+    display: flex;
+}
+.bundle-up h1{
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.bundle-up h1{
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #FEFDFC;
+    display: flex;
+    align-items: center;
+    padding: 10px 200px;
+    justify-content: space-between;
+}
+.italic{
+    width: 200px;
+    height: 60px;
+    /* border: 1px solid #000; */
+    font-size: 28px;
+}
+.a{
+    width: 700px;
+    height: 60px;
+    /* border: 1px solid #000; */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.a h1{
+    color: #383230;
+    cursor: pointer;
+    font-weight: 20;
+}
+.search{
+    width: 250px;
+    height: 60px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    gap: 25px;
+}
+.search h1{
+    color: #383230;
+    cursor: pointer;
+    font-weight: 20;
+}
+.box-icon{
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+}
+.box-icon2{
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+}
+.luxury{
+    width: 100%;
+    height: 150px;
+    background-color: #F9F7F4;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.luxury h1{
+    color: #000;
+    font-weight: 20;
+    font-size: 60px;
+}
+.LUX{
+    width: 550px;
+    height: 70px;
+    /* border: 1px solid #000; */
+}
+.img1{
+    width: 100%;
+    height: 650px;
+    background-color: #000;
+    background-image: url("https://s3-alpha-sig.figma.com/img/c446/487b/3a6b4ec4b1df8d500e5bf9a90266ef6b?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R8NISyyMZyva625f6twgFq~tmOcS3zKP4jbLj9TUT6Rifj7~5VzRaPVOv~CcKPfiPGPPn8V4VE0sXdYwN3vKtrlJphK-BgyUalnsLj6WHBx6FY2Wi~si~50n~3CFsaGC3DnD0n6nbGGuyy-RMKpJI0oRenveS0RtQtXM1lGv--4DK3RzBAGCpdifTfPJSAkfPPxEnRevsifLn1Bji0grHnWvfSrQ8H2E7wP~jc588kNt26xdq4gQH-L7zd8zrP0Cv-ixZbi-LOwgO6EJHuAyxd3s2BLHswRGqVFKq0bpb1wBju0LmlGuRT22HQVPncBsmQrvjeli9V1B9QxFHKFq-A__");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second-page{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid #000; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.unbranded{
+    width: 760px;
+    height: 200px;
+    /* border: 1px solid #000; */
+}
+.unbranded h1{
+    font-size: 48px;
+    font-weight: 20;
+}
+.onlya{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.onlya a{
+    font-size: 32px;
+    color: #000;
+    font-weight: 20;
+}

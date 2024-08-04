@@ -415,14 +415,14 @@
     align-items: center;
 }
 .line{
-    width: 650px;
+    width: 700px;
     border: 1px solid #000;
 }
 .line2{
-    width: 650px;
+    width: 700px;
     border: 1px solid #000;
 } 
 .box-icon5{
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 100px;
 }

@@ -5,6 +5,218 @@
     outline: none;
     box-sizing: border-box;
 }
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    width: 100%;
+    
+}
+
+header {
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.header-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 24px;
+    margin: 0;
+}
+.search{
+    width: 500px;
+    font-size: 18px;
+    
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.search-bar {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 20px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.box-icon{
+    width: 40px;
+    height: 80px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.swiper-container {
+    border: 1px solid #000;
+    width: 1500;
+    max-width: 1500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.swiper-wrapper {
+    display: flex;
+    transition: transform 0.3s ease;
+    background-color: white;
+}
+
+.swiper-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.swiper-slide img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+.swiper-button-prev {
+    left: 10px;
+}
+
+.swiper-button-next {
+    right: 10px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #ffffff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.close-button {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover, .close-button:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register-button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: #45a049;
+}
+
+
+/* button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+} */
+
 .first-page{
     width: 100%;
     height: 100vh;
@@ -99,7 +311,7 @@
 .luxury h1{
     color: #000;
     font-weight: 20;
-    font-size: 60px;
+    font-size: 48px;
 }
 .LUX{
     width: 550px;
@@ -123,11 +335,12 @@
     display: flex;
     align-items: center;
 }
-.unbranded{
+/* .unbranded{
     width: 760px;
     height: 200px;
+    margin-top: 900px;
     /* border: 1px solid #000; */
-}
+/* } */ */
 .unbranded h1{
     font-size: 48px;
     font-weight: 20;
@@ -138,6 +351,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-top: 120px;
 }
 .onlya a{
     font-size: 32px;

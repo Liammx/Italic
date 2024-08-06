@@ -5,8 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js">
 </head>
 <body>
+    <header>
+    <div id="registration-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Registration</h2>
+            <form id="registration-form">
+                <input type="text" id="name" name="name" placeholder="First Name" required>
+                <input type="text" id="surname" name="surname" placeholder="Last Name" required>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                <button class="register-button" type="submit">Registration</button>
+            </form>
+        </div>
+    </div>
+
     <div class="first-page">
         <div class="bundle-up">
             <h1>BUNDLE UP.</h1>
@@ -35,6 +51,18 @@
                 <box-icon class="box-icon2" name='shopping-bag' ></box-icon>
             </div>
         </div>
+        <main>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="https://s3-alpha-sig.figma.com/img/fbbb/2e48/876b386e06206d2790e8d131d6e8ce90?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ORnccFsm1g5sMmMMn7Qkw1piW3ctVsHkgovrOO01dJCmH37SEyO6SRkKDffN3jx5843WV7QJN0R6J14ofLcriT2aqSpCtx3bYqDpWPPxhGIRjakHhjVYn4-LX~4mbzLacxHPaLTJAgXtfcRmhYYiks1ZqA2Qo1-xInTvUWcAtJ8Ih7QI~bYspLaENFq2vArXCVbNqPFG8SukV75eNdKBzAry-fNPLIR-pEKFSd6PZ55Ryf1TEMEocZiobUnlYlvlRafWycMECrwLW1A2lx24DGVD0xSq46BRSiUrc72F-YUQDNeVPfbPqBtnBjgbSQEMbd8WiCfIO7XT0r49HdJG0Q__" alt="Photo 1"></div>
+                    <div class="swiper-slide"><img src="https://s3-alpha-sig.figma.com/img/d6f5/11cb/a285132ac16bb61b144abf62d5195e65?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ac2MVH6l9wxmts0Zoa-DFcOkmaJiHpUnrQBre8o4A7Li6n--s4dSIbrG-fXWfY357qWbm0zwuK~RP2j5qB7yfU~39AWGHp452Hdim6r-vOVOJEVZrteXGnpEXtTD~kr9caEipsVijbYrgEFCmGbIcE0ip33GxGzIFIMX6hbdYlkdZ3mARsD9RHYu21Nmq8AJyun~FaxpF2S~9ajgURDznrbnsjK9ttdkEBc3~7rI5ZAZUOJUDbu4zG19G5Wh0jH44S6FUKn0AHSSZWJr-o5Y4GukwAPj1Ylr0CiRm1Yv~E8UExOMLI8DPCBabqBbBizPIKJNOBjFeFZjb7EMOqonPA__" alt="Photo 2"></div>
+                    <div class="swiper-slide"><img src="https://s3-alpha-sig.figma.com/img/e832/614c/970ba988af0e0244735d5e4b09a7b5e6?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IaDcrrClWwoB~dChFw3suWw82ZoXh5LCAfKfYXSFqqh-xPHNdV3J3dFg52C4pdB8m~AZk4LTtemheYGJdhFEQznSW9gVGbWttCvpKyn7OM9dKcAX3Q2BeOdHtQUBjCzRPaxoiFvcdxin-Ff8CBE4kDWN6BZhNSZWCaim1bzB5dfwQsOHkS3KEMAd5ebphX6Xa2x0q3kQuqZCtcdiNfDEnbor7iKon9~jJnc-B3qGEMRhcIGRMX5PhzrzTT988sa~Gsz1j8a2AvjrTo5RRIPugaNcqYZNsXu9E3cWOjAclaUTZl3S~~cc0A~Q~UKcYi13sxJgMd7UXoQGTkFTTqIvfA__" alt="Photo 3"></div>
+                    <div class="swiper-slide"><img src="https://s3-alpha-sig.figma.com/img/a2f8/5b66/7bf2befeed61deef1b4a5c8f9b95d7a1?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qzLFSgajHeTp7FPkydCGFs0KOIC7LlD7kbpx6KX7rn3PHI3NF-mZpuxwfMxa5TDobFGW5~m0vnF3ScIlMfXNJl4ZZsGnE1gfNj5lz4bh8VBsr-pCsEhmV9OmCcYJlPUqFbTh~Fbxv9YUVI1dQ3QjqwfFSTkkzqNU0DbzdAwNh5W42a6g2vAqjX3xgT4oOdn8AxYHn3YzU4cCG0KxR4LSRujTkVlSWGkcQa5EUjEBVM8f8mp25Yk2A5kgvL9NeB~7rzDxhxtR6fmJ5ZF05lCAlhDCmL3isE9d5GAJRnZEAFWWv96GfstDR8ce76Q8ELRNw~0m4HIYhbROGg5tiBm7GQ__" alt="Photo 4"></div>
+                </div>
+                <div class="swiper-button-prev">&lt;</div>
+                <div class="swiper-button-next">&gt;</div>
+            </div>
+        </main>
         <div class="luxury">
             <div class="LUX">
             <h1>Luxury without labels.</h1>
@@ -45,9 +73,9 @@
     </div>
 
     <div class="second-page">
-        <div class="unbranded">
+        <!-- <div class="unbranded">
             <h1>Unbranded luxury-grade essentials from the same manufacturers as your favorite brands. No logos, no markups.</h1>
-        </div>
+        </div> -->
     </div>
 
     <div class="onlya">

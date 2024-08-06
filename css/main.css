@@ -88,7 +88,7 @@ main {
 }
 
 .swiper-container {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     width: 1500;
     max-width: 1500px;
     height: 400px;
